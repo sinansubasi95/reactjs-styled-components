@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "@babel/preset-env", // this is for wide-range of browser compatibility
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        ["babel-plugin-styled-components", {
+          "namespace": "my-app"
+        }]
+    ]
+}
